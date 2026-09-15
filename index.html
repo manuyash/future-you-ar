@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+  <!-- Crawlers only read robots.txt from the ORIGIN ROOT, so public/robots.txt is ignored on a
+       GitHub Pages project site (/<repo>/). This meta tag is path-independent; keep both. -->
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23003caa'/%3E%3Cpath d='M32 12c2 10 8 16 18 18-10 2-16 8-18 18-2-10-8-16-18-18 10-2 16-8 18-18z' fill='%23fff'/%3E%3C/svg%3E" />
+  <title>Future You</title>
+  <style>html,body{color:#fff;background:#000;height:100%;margin:0;font-family:system-ui,sans-serif;overflow:hidden}#stage{position:fixed;inset:0}#out{object-fit:cover;width:100vw;height:100vh;display:block}#cam{opacity:0;pointer-events:none;width:1px;height:1px;position:absolute}#overlay{pointer-events:none;position:fixed;inset:0}</style>
+  <script type="module" crossorigin src="/future-you-ar/assets/index-6m11JHGn.js"></script>
+</head>
+<body>
+  <div id="stage">
+    <video id="cam" playsinline muted autoplay></video>
+    <canvas id="out"></canvas>
+  </div>
+  <div id="overlay"></div>
+</body>
+</html>

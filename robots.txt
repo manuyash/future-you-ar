@@ -1,0 +1,3 @@
+# Preview/demo build: keep it out of search results until the brand signs off.
+User-agent: *
+Disallow: /
